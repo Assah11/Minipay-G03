@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "chapitre": 1,
+  "equipe": "GROUPE 3",
+  "membre": "MVODO MICHELE",
+  "date_utc": "2026-10-28T18:55:45+00:00",
+  "parametres": {
+    "timeout_s": 2,
+    "delai_serveur_s": 3,
+    "montant": 7000
+  },
+  "mesures": {
+    "latence_connexion_ms_moy": 0.1513,
+    "latence_connexion_ms_min": 0.0179,
+    "duree_scenario_a_s": 4.007,
+    "duree_scenario_b_s": 4.005
+  },
+  "resultats": {
+    "executions_sans_idempotence": 2,
+    "executions_avec_idempotence": 1
+  },
+  "fichiers": {
+    "serveur_py": true,
+    "client_py": true,
+    "client_reessaie": true
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "647afbf974"
+  },
+  "git": {
+    "commits": "2",
+    "auteur": "mvodomichele4-alt"
+  },
+  "empreinte": "f6c6305508dc0a5522d47c8173dc7518746cefd3cb4d6392080ab1e303a3c879"
+}
