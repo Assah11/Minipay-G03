@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "chapitre": 2,
+  "equipe": "G03",
+  "membre": "Assah Darren",
+  "date_utc": "2026-11-05T13:12:37+00:00",
+  "parametres": {
+    "timeout_s": 3,
+    "delai_serveur_s": 4,
+    "montant": 2000
+  },
+  "mesures": {
+    "latence_paiement_ms_moy": 13.954,
+    "redemarrage_paiement_s": 0.74
+  },
+  "resultats": {
+    "sante_initiale": true,
+    "paiement_ok": true,
+    "idempotence_ok": true,
+    "degrade_notification_ok": true,
+    "isolation_paiement_ok": true,
+    "reprise_ok": true
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "aadbfea782"
+  },
+  "empreinte": "c9aa5cb0ee15c40645d5c0baf2fb1c0df7bed581bf4aed83f81c0e7edf9b672c"
+}
