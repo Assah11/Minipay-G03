@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "chapitre": 1,
+  "equipe": "GO3",
+  "membre": "Matje Mbouma Pierre Lotti",
+  "date_utc": "2026-11-06T07:12:00+00:00",
+  "parametres": {
+    "timeout_s": 1,
+    "delai_serveur_s": 2,
+    "montant": 7000
+  },
+  "mesures": {
+    "latence_connexion_ms_moy": 50.8208,
+    "latence_connexion_ms_min": 0.0178,
+    "duree_scenario_a_s": 2.127,
+    "duree_scenario_b_s": 2.003
+  },
+  "resultats": {
+    "executions_sans_idempotence": 2,
+    "executions_avec_idempotence": 1
+  },
+  "fichiers": {
+    "serveur_py": false,
+    "client_py": false,
+    "client_reessaie": false
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "6d9910531d"
+  },
+  "git": {
+    "commits": "2",
+    "auteur": "PiLo03"
+  },
+  "empreinte": "b0614d2cfba57aa26dbe130ead90779b207efcdd8f893220895285f6405662c7"
+}
