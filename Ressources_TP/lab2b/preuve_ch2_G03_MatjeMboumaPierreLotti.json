@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "chapitre": 2,
+  "equipe": "G03",
+  "membre": "Matje Mbouma Pierre Lotti",
+  "date_utc": "2026-11-09T17:39:14+00:00",
+  "parametres": {
+    "timeout_s": 3,
+    "delai_serveur_s": 4,
+    "montant": 2000
+  },
+  "mesures": {
+    "latence_paiement_ms_moy": 3007.079,
+    "redemarrage_paiement_s": null
+  },
+  "resultats": {
+    "sante_initiale": false,
+    "paiement_ok": false,
+    "idempotence_ok": false,
+    "degrade_notification_ok": false,
+    "isolation_paiement_ok": false,
+    "reprise_ok": false
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "6d9910531d"
+  },
+  "empreinte": "1f32f1d394d7f37b437eb8dac7fbd049cdc87078f78ed742286c81af295329c8"
+}
