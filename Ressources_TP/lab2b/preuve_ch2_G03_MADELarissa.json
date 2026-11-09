@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "chapitre": 2,
+  "equipe": "G03",
+  "membre": "MADE Larissa",
+  "date_utc": "2026-11-09T14:05:18+00:00",
+  "parametres": {
+    "timeout_s": 3,
+    "delai_serveur_s": 4,
+    "montant": 2000
+  },
+  "mesures": {
+    "latence_paiement_ms_moy": 14.364,
+    "redemarrage_paiement_s": 0.75
+  },
+  "resultats": {
+    "sante_initiale": false,
+    "paiement_ok": true,
+    "idempotence_ok": true,
+    "degrade_notification_ok": true,
+    "isolation_paiement_ok": true,
+    "reprise_ok": true
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "7d06893c45"
+  },
+  "empreinte": "a3a3f3a6d7c12f143dd2ad76e40940045f502971219592d743a97b9f638dec97"
+}

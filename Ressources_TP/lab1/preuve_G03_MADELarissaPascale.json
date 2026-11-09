@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "chapitre": 1,
+  "equipe": "G03",
+  "membre": "MADE Larissa Pascale",
+  "date_utc": "2026-11-06T14:23:52+00:00",
+  "parametres": {
+    "timeout_s": 3,
+    "delai_serveur_s": 4,
+    "montant": 2000
+  },
+  "mesures": {
+    "latence_connexion_ms_moy": 0.1426,
+    "latence_connexion_ms_min": 0.0236,
+    "duree_scenario_a_s": 6.089,
+    "duree_scenario_b_s": 6.008
+  },
+  "resultats": {
+    "executions_sans_idempotence": 2,
+    "executions_avec_idempotence": 1
+  },
+  "fichiers": {
+    "serveur_py": true,
+    "client_py": true,
+    "client_reessaie": true
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "7d06893c45"
+  },
+  "git": {
+    "commits": "14",
+    "auteur": "madepascale7"
+  },
+  "empreinte": "7feaa66e8302f998e9737a7feeecfbf849ae2beea8662326719315166ac1e55e"
+}
