@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "chapitre": 3,
+  "equipe": "G03",
+  "membre": "Assah Darren Emmanuel Tembi",
+  "date_utc": "2026-11-11T17:46:41+00:00",
+  "parametres": {
+    "timeout_s": 3,
+    "delai_serveur_s": 4,
+    "montant": 2000
+  },
+  "parametres_chapitre": {
+    "echecs_avant_succes": 2,
+    "seuil_disjoncteur": 2,
+    "messages": 2
+  },
+  "mesures": {
+    "duree_consommation_s": 6.23,
+    "latence_publication_ms_moy": 1.727
+  },
+  "resultats": {
+    "redistribution_ok": true,
+    "idempotence_consommateur_ok": true,
+    "doublon_sans_idempotence_ok": true,
+    "reessais_ok": true,
+    "reessais_abandon_ok": true,
+    "disjoncteur_ouvre_ok": true,
+    "disjoncteur_rapide_ok": true,
+    "disjoncteur_reprise_ok": true
+  },
+  "git": {
+    "commits": "22",
+    "auteur": "Assah11"
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "aadbfea782"
+  },
+  "empreinte": "849b7db3bd55d16d0c375dd2fb69dc4cf173ba6811aa13c72480fa6b22de7e58"
+}
